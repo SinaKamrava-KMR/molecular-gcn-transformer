@@ -1,0 +1,11 @@
+{
+  "test_molecule_count": 420,
+  "graph_to_sequence_top1": 0.5047619342803955,
+  "graph_to_sequence_top5": 0.8595238327980042,
+  "sequence_to_graph_top1": 0.488095223903656,
+  "sequence_to_graph_top5": 0.8357142806053162,
+  "average_matching_pair_cosine": 0.8806191682815552,
+  "average_nonmatching_pair_cosine": 0.0306259673088789,
+  "random_chance_top1": 0.002380952380952381,
+  "random_chance_top5": 0.011904761904761904
+}

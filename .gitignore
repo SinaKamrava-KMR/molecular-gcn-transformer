@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Trained models and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+
+# Assignment and draft reports
+NNDL-Prj4-2026.pdf
+Report (AutoRecovered).docx
+
+# Exclude generated results by default
+results_corrected/*
+
+# Include visualizations
+!results_corrected/*.png
+
+# Include selected evaluation summaries
+!results_corrected/architecture_summary.json
+!results_corrected/dataset_statistics.json
+!results_corrected/final_corrected_summary.json
+!results_corrected/test_retrieval_metrics.json
+!results_corrected/generation_metrics_by_temperature.json

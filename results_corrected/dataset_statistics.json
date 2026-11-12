@@ -1,0 +1,24 @@
+{
+  "original_molecule_count": 4200,
+  "invalid_structure_count": 0,
+  "duplicate_count": 0,
+  "selfies_conversion_failure_count": 0,
+  "overlength_selfies_count": 6,
+  "total_removed_count": 6,
+  "usable_molecule_count": 4194,
+  "split_sizes": {
+    "train": 3355,
+    "validation": 419,
+    "test": 420
+  },
+  "vocabulary_size": 52,
+  "average_atom_count": 26.96638054363376,
+  "average_undirected_bond_count": 29.4241773962804,
+  "selfies_length_minimum": 9,
+  "selfies_length_average": 44.388888888888886,
+  "selfies_length_maximum": 94,
+  "unknown_token_counts": {
+    "validation": 0,
+    "test": 2
+  }
+}
